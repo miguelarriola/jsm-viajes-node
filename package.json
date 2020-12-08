@@ -1,0 +1,21 @@
+{
+  "name": "viajes-node",
+  "version": "1.0.0",
+  "description": "Proyecto simple de Ajencia de Aiajes para introducción a Node y Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Miguel Arriola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}

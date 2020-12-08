@@ -1,0 +1,33 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at massa sed felis dapibus varius. Duis ac iaculis felis. Aenean feugiat feugiat arcu et aliquam. Duis aliquam non arcu ac interdum. Suspendisse hendrerit eget arcu in placerat. Mauris vitae ex accumsan, mattis nisi ut, ornare nisl. Curabitur sit amet massa rutrum, posuere enim ut, rutrum ante. Quisque at turpis risus. Phasellus tempor dolor id massa sodales, scelerisque vehicula tortor ultrices. Curabitur tincidunt bibendum massa, non scelerisque neque varius ut. Proin et nibh tincidunt, tempor massa in, ultrices ligula.
+
+                p Vivamus scelerisque elit mi, ut pretium sem convallis sed. Proin gravida diam et ipsum tincidunt, eget tristique metus volutpat. Duis nunc orci, egestas in augue sed, lobortis tristique lorem. Mauris turpis lectus, venenatis quis elit ac, hendrerit consectetur risus. Phasellus vulputate ex eget diam placerat, sed consequat ante luctus.
+
+                p Sed auctor, libero ac pharetra venenatis, ligula magna mollis orci, a dignissim purus felis in nibh. Nulla facilisi. Maecenas a volutpat libero, non lacinia ex. Vivamus gravida arcu a varius interdum. Cras vitae orci id nulla lacinia luctus. Morbi tempor lectus lorem, eget tristique nulla luctus non. Vestibulum nec diam ac sapien porttitor dignissim vel pharetra odio.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Sed auctor, libero ac pharetra venenatis, ligula magna mollis orci, a dignissim purus felis in nibh. Nulla facilisi. Maecenas a volutpat libero, non lacinia ex. Vivamus gravida arcu a varius interdum.
+                    
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Sed auctor, libero ac pharetra venenatis, ligula magna mollis orci, a dignissim purus felis in nibh. Nulla facilisi. Maecenas a volutpat libero, non lacinia ex. Vivamus gravida arcu a varius interdum.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Sed auctor, libero ac pharetra venenatis, ligula magna mollis orci, a dignissim purus felis in nibh. Nulla facilisi. Maecenas a volutpat libero, non lacinia ex. Vivamus gravida arcu a varius interdum.
