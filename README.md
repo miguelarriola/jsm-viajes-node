@@ -6,7 +6,7 @@ Creada tomando el curso [JavaScript Moderno Guía Definitiva Construye +15 Proye
 
 ## Comenzando 🚀
 
-Ver el proyecto en [jsm-viajes-node](#)
+Ver el proyecto en [jsm-viajes-node](https://rocky-brook-51329.herokuapp.com/)
 
 ## Construido con 🛠️
 
